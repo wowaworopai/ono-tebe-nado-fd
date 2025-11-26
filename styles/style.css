@@ -107,11 +107,6 @@ address {
     z-index: 3;
 }
 
-.cover__description {
-    color: rgba(255, 255, 255);
-    z-index: 3;
-}
-
 .aligned-text {
     display: block;
     z-index: 3;
@@ -139,6 +134,7 @@ address {
     padding: 0 50px 50px;
     gap: 107px;
     z-index: 0;
+    color: rgba(255, 255, 255);
 }
 
 .cover__description-text {
