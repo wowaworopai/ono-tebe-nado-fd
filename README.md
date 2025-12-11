@@ -1,1 +1,1 @@
-https://github.com/wowaworopai/ono-tebe-nado-fd#
+https://github.com/wowaworopai/ono-tebe-nado-fd
