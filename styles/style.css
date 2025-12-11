@@ -21,7 +21,7 @@ address {
 
 .content-section {
     box-sizing: border-box;
-    min-height: 250px;
+    min-height: 195px;
     width: 100%;
     max-width: 1100px;
     margin: auto;
@@ -29,7 +29,7 @@ address {
 
 .header {
     display: grid;
-    padding: 94px 50px 96px;
+    padding: 92px 50px 94px;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
 }
@@ -102,7 +102,7 @@ address {
     font-weight: 700;
     font-size: 100px;
     line-height: 133px;
-    padding: 160px 29px 100px 50px;
+    padding: 160px 20px 100px 50px;
     z-index: 3;
 }
 
@@ -112,7 +112,7 @@ address {
 }
 
 .letter-spacing-extended {
-    letter-spacing: 28px;
+    letter-spacing: 30px;
 }
 
 .aligned-text_left {
@@ -130,8 +130,8 @@ address {
 .cover__description {
     display: flex;
     align-items: center;
-    padding: 0 50px 50px;
-    gap: 110px;
+    padding: 0 51px 50px;
+    gap: 108px;
     color: rgba(255, 255, 255);
     z-index: 0;
 }
@@ -155,7 +155,7 @@ address {
 }
 
 .lots {
-    margin: 181px 24px 120px;
+    margin: 180px 24px 120px;
 }
 
 .lots_heading {
@@ -238,7 +238,7 @@ address {
 .about__column {
     display: grid;
     grid-template-columns: 312px 1fr;
-    padding: 32px 0 0 47px;
+    padding: 36px 0 0 47px;
 }
 
 .about__logo {
@@ -257,14 +257,14 @@ address {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 100px;
-    padding: 104px 0 0;
+    padding: 99px 0 0;
 }
 
 .about__text__description-block {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 690px;
+    gap: 22px;
+    width: 687px;
 }
 
 .about__text {
