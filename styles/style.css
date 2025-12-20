@@ -1,7 +1,5 @@
 body {
-    background-color: #f5f5f5;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    background-color: #ffffff;
 }
 
 h1,
@@ -21,7 +19,6 @@ address {
 
 .content-section {
     box-sizing: border-box;
-    min-height: 195px;
     width: 100%;
     max-width: 1100px;
     margin: auto;
@@ -47,6 +44,10 @@ address {
     text-underline-offset: 4px;
 }
 
+.header__link_active {
+    text-decoration: none;
+}
+
 .header__links-list-item_no-bullit {
     list-style: none;
 }
@@ -66,11 +67,14 @@ address {
     align-items: flex-start;
     flex-direction: column;
     font: inherit;
-    justify-self: end;
     text-underline-offset: 4px;
-    line-height: 24.3px;
+    line-height: 24px;
     font-size: 18px;
-    width: 240px;
+}
+
+.header__address {
+    justify-self: end;
+    max-width: 240px;
 }
 
 .address__link {
@@ -83,6 +87,7 @@ address {
     color: #ffffff;
     background: url(../images/0ebc4c3a92bfb672f477e421e7738fd6416ff19b.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .overlay {
@@ -90,8 +95,6 @@ address {
     height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    top: 0;
-    left: 0;
     z-index: 0;
 }
 
@@ -178,6 +181,10 @@ address {
     min-height: 596px;
 } 
 
+.card-link {
+    text-decoration: none;
+}
+
 .card {
     display: flex;
     position: relative;
@@ -192,10 +199,11 @@ address {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
+    text-underline-offset: 3px;
     font-size: 22px;
     line-height: 1.2;
     text-decoration: underline;
-    margin: 48px 40px 0px;
+    margin: 46px 40px 0px;
     z-index: 2;
 }
 
@@ -279,13 +287,6 @@ address {
 }
 
 .address__footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font: inherit;
-    text-underline-offset: 4px;
-    font-size: 18px;
-    line-height: 24.3px;
     width: 265px;
 }
 
