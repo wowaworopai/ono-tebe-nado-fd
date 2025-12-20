@@ -1,20 +1,6 @@
 body {
     background-color: #ffffff;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-blockquote,
-address {
-    margin: 0;
-    padding: 0;
+    font-weight: 400;
 }
 
 .content-section {
@@ -282,7 +268,7 @@ address {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 50px;
+    padding: 0 50px 83px;
     justify-content: space-between;
 }
 
